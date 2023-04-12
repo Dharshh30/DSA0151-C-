@@ -1,0 +1,9 @@
+#include <stdio.h> 
+int main(void) 
+{ 
+	const int j = 20; 
+	int *ptr = &j;
+	printf("*ptr: %d\n", *ptr); 
+	return 0; 
+}
+ANS:error in c++ and warning in c because we gave const int in the normal pointer which means in c++ it'll show error.
