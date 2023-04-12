@@ -1,0 +1,11 @@
+5.	What happens if the following program is executed in C and C++?
+/*	
+#include <stdio.h> 
+int main(void) 
+{ 
+	int new = 5;
+	printf("%d", new); 
+}
+
+ANS:
+it'll show in c++ and execution in c because new is a keyword in c++ so we can't declare av variable as new.
