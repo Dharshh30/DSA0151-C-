@@ -1,0 +1,10 @@
+#include<iostream>
+void main()
+{
+	int i=0;
+	i=i+1;
+	cout<<i<<" ";
+	cout<<i;
+}
+ANS:
+here the error is void main() because,main() should return with int
